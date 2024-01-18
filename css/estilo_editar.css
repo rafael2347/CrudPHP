@@ -1,0 +1,55 @@
+
+       body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura del viewport */
+    margin: 0;
+    background-color: #f8f9fa; /* Color de fondo */
+    }
+
+.contenedorPadre {
+    text-align: center;
+}
+
+.formulario {
+    width: 300px; /* Ancho del formulario */
+    padding: 20px;
+    background-color: #ffffff; /* Color de fondo del formulario */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px; /* Espacio entre el encabezado y el formulario */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos adicionales según sea necesario */
+h2 {
+    color: #333;
+    margin-bottom: 20px; /* Espacio inferior para separar del formulario */
+}
+
+input {
+    margin-bottom: 15px;
+    width: 100%; /* Ocupar todo el ancho disponible */
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Estilos Bootstrap para los botones */
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Estilo para el enlace */
+a {
+    text-decoration: none;
+}
+        

@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color:snow;
+}
+h1 {
+    color: #333;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #333;
+}
+th, td {
+    padding: 10px;
+}

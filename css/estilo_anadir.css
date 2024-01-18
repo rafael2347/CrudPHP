@@ -1,0 +1,29 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura del viewport */
+    margin: 0;
+}
+
+.contenedorPadre {
+    text-align: center;
+}
+
+.formulario {
+    width: 300px; /* Ancho del formulario */
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Estilos adicionales según sea necesario */
+h1 {
+    color: #333;
+}
+
+input {
+    margin-bottom: 10px;
+}
