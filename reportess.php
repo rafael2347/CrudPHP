@@ -22,6 +22,17 @@ class MYPDF extends TCPDF {
         $this->Cell(0, 10, 'Teléfono: 958384512', 0, false, 'C', 0, '', 0, false, 'M', 'M');
         $this->Ln(20); // Aumenté el espacio después del encabezado para evitar superposiciones
     }
+<<<<<<< HEAD
+=======
+    public function Footer() {
+        // Posiciona a 15 mm desde la parte inferior
+        $this->SetY(-15);
+        // Establece la fuente
+        $this->SetFont('helvetica', 'I', 8);
+        // Agrega el texto del pie de página
+        $this->Cell(0, 10, 'Política de privacidad de datos de la empresa', 0, false, 'C');
+    }
+>>>>>>> 7bf6768 (subida pdf footer)
 
     public function ColoredTable($header, $data) {
     $this->SetFillColor(46, 204, 113);
